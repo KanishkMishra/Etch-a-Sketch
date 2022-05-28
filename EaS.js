@@ -17,7 +17,7 @@ function createGrid(size = 16) {
         container.appendChild(box);
     }
 
-    container.style.gridTemplateColumns = "repeat(size, 1fr)";
+    container.style.gridTemplateColumns = `repeat(${size}, 1fr)`;
 
     // establish hover event
     const grid = document.querySelectorAll('.box');

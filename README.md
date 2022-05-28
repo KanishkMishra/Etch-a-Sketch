@@ -1,3 +1,3 @@
 # Etch-a-Sketch
 
-This program is a16 by 16 grid for sketching
+This program atarts as a 16 by 16 grid for sketching, can be resized keeping same dimensions using js.
