@@ -1,0 +1,27 @@
+.container {
+    display: grid;
+
+    margin: auto;
+
+    height: 600px;
+    width: 600px;
+
+    grid-template-columns: repeat(16, 1fr);
+    padding: 10px;
+}
+
+.box {
+    padding: 1fr;
+}
+
+.hover {
+    background-color: black;
+}
+
+.resize {
+    width: 100px;
+    height: 40px;
+    font-weight: 700;
+    background-color: blue;
+    color: aliceblue;
+}
